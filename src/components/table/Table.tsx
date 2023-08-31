@@ -80,7 +80,7 @@ const TableStock: React.FC<TableStockInterface> = ({ stocks }: TableStockInterfa
         setSearched("")
     }
     const handleChangePage = (event: unknown, newPage: number) => {
-        // console.log(event)
+        console.log(event)
         setPage(newPage);
     };
 
